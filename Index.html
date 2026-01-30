@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TRANSACT AI — Save $15K-$120K on Business Advisors</title>
+
+  <!-- Google Fonts: Montserrat + Open Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+<link rel="stylesheet" href="style.css">
+
+
+
+  <!-- Simple analytics datalayer example (GTM-friendly) -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+  </script>
+</head>
+<body class="site">
+
+  <!-- Header -->
+  <header class="site-header" role="banner" data-heatmap="header">
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="TRANSACT AI home">
+        <!-- Simple text logo — swap for SVG as needed -->
+        <strong class="brand-name">TRANSACT AI</strong>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#how">How It Works</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-ghost" href="#signin">Sign In</a>
+        <a class="btn btn-primary" href="#packages" id="browsePackagesBtn">Browse Packages</a>
+        <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero" role="region" aria-label="Hero" data-heatmap="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <h1>Save $15K-$120K on Business Advisors</h1>
+        <p class="lead">AI-Powered Prompts Guide Every Step of Your Business Transaction</p>
+
+        <div class="hero-ctas">
+          <a class="btn btn-primary large" href="#packages" id="heroBrowseBtn">Browse Packages</a>
+          <button class="btn btn-secondary large" id="takeAssessmentBtn">Take the Assessment</button>
+        </div>
+
+        <p class="hero-taglines">
+          <strong>From Search to Close in Weeks, Not Months.</strong><br>
+          Professional Quality at DIY Prices.
+        </p>
+      </div>
+
+      <div class="hero-image" aria-hidden="true">
+        <!-- Placeholder dashboard image / swap with real screenshot -->
+        <div class="dashboard-screenshot">
+          <svg width="520" height="300" viewBox="0 0 520 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Dashboard screenshot placeholder">
+            <rect width="520" height="300" fill="#0b3b66"/>
+            <g fill="#ffffff" opacity="0.9">
+              <rect x="20" y="20" width="200" height="40" rx="6" fill="#0066CC"/>
+              <rect x="240" y="20" width="260" height="40" rx="6" fill="#003366"/>
+              <rect x="20" y="80" width="480" height="180" rx="8" fill="#0f4f80"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM / SOLUTION -->
+  <section class="problems" id="problems" role="region" aria-label="Problems & Solutions">
+    <div class="container">
+      <div class="problems-row">
+        <div class="problem-col">
+          <h2>Why Business Advisors Are So Expensive</h2>
+          <ul class="problem-list">
+            <li><span class="icon">💲</span><strong>$20K-$150K</strong> in advisor fees — typical transaction costs</li>
+            <li><span class="icon">⏰</span><strong>40-50 hours</strong> of work: gathering info, drafting agreements</li>
+            <li><span class="icon">🔒</span><strong>Lack of control</strong> — you don't understand the deal</li>
+          </ul>
+        </div>
+
+        <div class="solution-col">
+          <h2>The TRANSACT AI Solution</h2>
+          <h3>DIY 80%. Professional Reviews Final 20%</h3>
+          <p>Use AI prompts to complete 80% of transaction work yourself, then have a professional review the final 20% to make it airtight.</p>
+
+          <div class="comparison">
+            <div class="cmp-card">
+              <h4>Traditional Advisors</h4>
+              <dl>
+                <dt>Cost</dt><dd>$50K-$150K</dd>
+                <dt>Time</dt><dd>6-12 months</dd>
+                <dt>Control</dt><dd>Professional</dd>
+                <dt>Savings</dt><dd>None</dd>
+              </dl>
+            </div>
+            <div class="cmp-card">
+              <h4>Pure DIY</h4>
+              <dl>
+                <dt>Cost</dt><dd>Free</dd>
+                <dt>Time</dt><dd>40-50 hrs</dd>
+                <dt>Control</dt><dd>You</dd>
+                <dt>Savings</dt><dd>Risk</dd>
+              </dl>
+            </div>
+            <div class="cmp-card featured">
+              <h4>TRANSACT AI (Best)</h4>
+              <dl>
+                <dt>Cost</dt><dd>$300-$1,500 total</dd>
+                <dt>Time</dt><dd>15-20 hours</dd>
+                <dt>Control</dt><dd>You (with backup)</dd>
+                <dt>Savings</dt><dd>$15K-$120K+</dd>
+              </dl>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES: Horizontal scrolling cards -->
+  <section class="services" id="services" role="region" aria-label="Services">
+    <div class="container">
+      <h2>150 AI Prompts Organized by Service Type</h2>
+      <p class="muted">Everything you need for your business transaction</p>
+
+      <div class="services-scroller" data-heatmap="services">
+        <button class="scroller-arrow left" aria-label="Scroll left" id="scrollLeft">◄</button>
+
+        <div class="services-track" id="servicesTrack" tabindex="0" aria-label="Service packages carousel">
+          <!-- 7 service cards -->
+          <article class="service-card" data-service="legal">
+            <div class="icon">⚖️</div>
+            <h4>Legal Prompts</h4>
+            <p class="count">25 Prompts</p>
+            <p class="desc">Draft agreements, term sheets, LOIs.</p>
+            <div class="price">$499.99 <span class="offer">BUY 2+ $249.99</span></div>
+            <a class="btn card-cta" href="/legal-prompts">Start Now</a>
+          </article>
+
+          <article class="service-card" data-service="accounting">
+            <div class="icon">📊</div>
+            <h4>Accounting Prompts</h4>
+            <p class="count">25 Prompts</p>
+            <p class="desc">Analyze financials & reports quickly.</p>
+            <div class="price">$499.99 <span class="offer">BUY 2+ $249.99</span></div>
+            <a class="btn card-cta" href="/accounting-prompts">Start Now</a>
+          </article>
+
+          <article class="service-card" data-service="brokerage">
+            <div class="icon">🤝</div>
+            <h4>Brokerage Prompts</h4>
+            <p class="count">25 Prompts</p>
+            <p class="desc">Structure deal terms & offers.</p>
+            <div class="price">$499.99 <span class="offer">BUY 2+ $249.99</span></div>
+            <a class="btn card-cta" href="/brokerage-prompts">Start Now</a>
+          </article>
+
+          <article class="service-card" data-service="valuation">
+            <div class="icon">💰</div>
+            <h4>Valuation Prompts</h4>
+            <p class="count">25 Prompts</p>
+            <p class="desc">Assess worth & negotiation position.</p>
+            <div class="price">$499.99 <span class="offer">BUY 2+ $249.99</span></div>
+            <a class="btn card-cta" href="/valuation-prompts">Start Now</a>
+          </article>
+
+          <article class="service-card" data-service="duediligence">
+            <div class="icon">🔍</div>
+            <h4>Due Diligence</h4>
+            <p class="count">25 Prompts</p>
+            <p class="desc">Review critical info & risks.</p>
+            <div class="price">$499.99 <span class="offer">BUY 2+ $249.99</span></div>
+            <a class="btn card-cta" href="/duediligence-prompts">Start Now</a>
+          </article>
+
+          <article class="service-card" data-service="financial">
+            <div class="icon">💼</div>
+            <h4>Financial Advisory</h4>
+            <p class="count">25 Prompts</p>
+            <p class="desc">Plan capital & projections.</p>
+            <div class="price">$499.99 <span class="offer">BUY 2+ $249.99</span></div>
+            <a class="btn card-cta" href="/financial-prompts">Start Now</a>
+          </article>
+
+          <article class="service-card" data-service="lenders">
+            <div class="icon">🏦</div>
+            <h4>Non-Bank Lenders</h4>
+            <p class="count">25 Prompts</p>
+            <p class="desc">Find alternative financing options.</p>
+            <div class="price">$499.99 <span class="offer">BUY 2+ $249.99</span></div>
+            <a class="btn card-cta" href="/lenders-prompts">Start Now</a>
+          </article>
+        </div>
+
+        <button class="scroller-arrow right" aria-label="Scroll right" id="scrollRight">►</button>
+      </div>
+
+      <p class="best-value">✓ BEST VALUE: Buy 2+ packages = 50% off each. Bundle Legal + Accounting = Save 50%</p>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how" id="how" role="region" aria-label="How it works">
+    <div class="container">
+      <h2>Your Transaction Journey - Simplified</h2>
+
+      <ol class="process-steps">
+        <li>
+          <strong>Step 1: Take the Assessment</strong>
+          <p><span class="icon">📋</span> Are you buying or selling? We'll recommend 20-30 prompts for your situation.</p>
+        </li>
+        <li>
+          <strong>Step 2: Access Your Prompts</strong>
+          <p><span class="icon">📱</span> Get instant access to all 150 prompts; follow the recommended path.</p>
+        </li>
+        <li>
+          <strong>Step 3: Work Through Prompts</strong>
+          <p><span class="icon">✓</span> Complete prompts at your pace with video guidance. Typical time: 15-20 hours.</p>
+        </li>
+        <li>
+          <strong>Step 4: Professional Review (Optional)</strong>
+          <p><span class="icon">🔍</span> Have a lawyer/accountant review final docs ($500-$1,000).</p>
+        </li>
+        <li>
+          <strong>Step 5: Done!</strong>
+          <p><span class="icon">🤝</span> Close with confidence — you understand every detail.</p>
+        </li>
+      </ol>
+
+      <p class="timeline">Timeline: 15-20 hours over 2-4 weeks (instead of 6+ months)</p>
+    </div>
+  </section>
+
+  <!-- SOCIAL PROOF -->
+  <section class="social-proof" role="region" aria-label="Social proof">
+    <div class="container">
+      <h2>Real Results from Real Customers</h2>
+
+      <div class="stats">
+        <div class="stat">⭐ <strong>500+</strong><span>Business Owners Trust TRANSACT AI</span></div>
+        <div class="stat">💰 <strong>$50M+</strong><span>in Transactions Completed</span></div>
+        <div class="stat">⏱️ <strong>35 hrs</strong><span>Average Time Saved</span></div>
+        <div class="stat">💵 <strong>$48,000</strong><span>Average Money Saved</span></div>
+      </div>
+
+      <div class="case-studies">
+        <article class="case">
+          <blockquote>"These prompts are incredible. I saved months of back-and-forth with advisors and ended up with a better understanding of my deal."</blockquote>
+          <cite>— Marcus T., Business Buyer</cite>
+        </article>
+
+        <article class="case">
+          <h4>James Saved $50K Using Accounting & Legal Prompts</h4>
+          <p>Result: Saved $50K. Closed in 5 weeks (not 4 months).</p>
+        </article>
+
+        <article class="case">
+          <h4>Sarah Increased Her Sale Price by $150K Using Valuation Prompts</h4>
+          <p>Result: Increased sale price by $150K. Sold faster to a strategic buyer.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq" role="region" aria-label="Frequently asked questions">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-list" role="list">
+        <details>
+          <summary>Do I need a lawyer to use these prompts?</summary>
+          <p>No. But it's smart to have one review. Our philosophy: You do 80% with AI, professional does final 20%. Example: $300 prompts + $500-1000 review = $800-1300.</p>
+        </details>
+
+        <details>
+          <summary>How long does it take?</summary>
+          <p>15-20 hours total (complete in 2-4 weeks at your pace).</p>
+        </details>
+
+        <details>
+          <summary>Are these just templates?</summary>
+          <p>No. These are AI prompts that guide step-by-step. Videos show exactly how to use each one.</p>
+        </details>
+
+        <details>
+          <summary>Can I get a refund?</summary>
+          <p>Yes — 30-day guarantee. Complete 5 prompts. If not satisfied, full refund.</p>
+        </details>
+
+        <details>
+          <summary>Do I have to access ALL 150 prompts?</summary>
+          <p>You have access to all 150, but we recommend a guided path of 20-30 prompts based on your situation.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta" role="region" aria-label="Final call to action" data-heatmap="final-cta">
+    <div class="container cta-inner">
+      <h2>Ready to Save $15K-$120K?</h2>
+      <p>Start your business transaction journey today</p>
+      <div class="cta-buttons">
+        <a class="btn btn-primary xlarge" href="#packages" id="finalBrowseBtn">Browse Packages</a>
+        <button class="btn btn-secondary xlarge" id="finalAssessmentBtn">Take the Assessment</button>
+      </div>
+      <p class="tagline">Saving TIME and THOUSANDS on Advisors</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div class="col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/pricing">Pricing</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="/legal-prompts">Legal</a></li>
+          <li><a href="/accounting-prompts">Accounting</a></li>
+          <li><a href="/brokerage-prompts">Brokerage</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/faq">FAQ</a></li>
+          <li><a href="/support">Support</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="/privacy">Privacy</a></li>
+          <li><a href="/terms">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="social">
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="#" aria-label="Twitter">Twitter</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+      </div>
+      <div class="copyright">© 2025 TRANSACT AI. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <!-- QUIZ / ASSESSMENT MODAL -->
+  <div class="modal-overlay" id="quizModal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Assessment">
+    <div class="modal" role="document">
+      <button class="modal-close" id="closeQuiz" aria-label="Close assessment">✕</button>
+      <h3>Assessment — Recommend Packages</h3>
+
+      <form id="quizForm" class="quiz-form">
+        <div class="q">
+          <label>Are you buying or selling a business?</label>
+          <select name="role" required>
+            <option value="">Choose...</option>
+            <option value="buying">Buying</option>
+            <option value="selling">Selling</option>
+            <option value="both">Both / Not sure</option>
+          </select>
+        </div>
+
+        <div class="q">
+          <label>What phase are you in?</label>
+          <select name="phase" required>
+            <option value="">Choose...</option>
+            <option value="pre-search">Pre-Search</option>
+            <option value="active-search">Active Search</option>
+            <option value="duediligence">Due Diligence</option>
+            <option value="offer">Offer & Negotiation</option>
+            <option value="pre-closing">Pre-Closing</option>
+            <option value="post-closing">Post-Closing</option>
+          </select>
+        </div>
+
+        <div class="q">
+          <label>Which services need the most help? (select one or more)</label>
+          <div class="checkboxes">
+            <label><input type="checkbox" name="help" value="legal"> Legal documents</label>
+            <label><input type="checkbox" name="help" value="accounting"> Financial analysis</label>
+            <label><input type="checkbox" name="help" value="valuation"> Valuation</label>
+            <label><input type="checkbox" name="help" value="financing"> Finding financing</label>
+            <label><input type="checkbox" name="help" value="duediligence"> Due diligence</label>
+            <label><input type="checkbox" name="help" value="all"> All of the above</label>
+          </div>
+        </div>
+
+        <div class="q">
+          <label for="email">Email (so we can send your recommendations)</label>
+          <input type="email" id="email" name="email" placeholder="you@company.com" required>
+        </div>
+
+        <div class="q actions">
+          <button type="submit" class="btn btn-primary">See Recommendations</button>
+          <button type="button" class="btn btn-ghost" id="quizCancel">Cancel</button>
+        </div>
+
+        <div class="quiz-result" id="quizResult" aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Lead capture (hidden in DOM as placeholder) -->
+  <form id="leadForm" class="hidden" aria-hidden="true">
+    <input name="name" placeholder="Your Name">
+    <input name="email" placeholder="Your Email">
+    <textarea name="message" placeholder="How can we help?"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <script>
+// Lightweight interactive logic for homepage
+(function(){
+  // Utilities
+  function qs(sel, ctx){ return (ctx||document).querySelector(sel) }
+  function qsa(sel, ctx){ return Array.from((ctx||document).querySelectorAll(sel)) }
+
+  // Modal / Quiz
+  const quizModal = qs('#quizModal');
+  const takeAssessmentBtn = qs('#takeAssessmentBtn');
+  const finalAssessmentBtn = qs('#finalAssessmentBtn');
+  const closeQuiz = qs('#closeQuiz');
+  const quizForm = qs('#quizForm');
+  const quizResult = qs('#quizResult');
+  const quizCancel = qs('#quizCancel');
+
+  function openModal(){
+    quizModal.setAttribute('aria-hidden','false');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal(){
+    quizModal.setAttribute('aria-hidden','true');
+    document.body.style.overflow = '';
+    quizResult.innerHTML = '';
+    quizForm.reset();
+  }
+
+  takeAssessmentBtn && takeAssessmentBtn.addEventListener('click', openModal);
+  finalAssessmentBtn && finalAssessmentBtn.addEventListener('click', openModal);
+  closeQuiz && closeQuiz.addEventListener('click', closeModal);
+  quizCancel && quizCancel.addEventListener('click', closeModal);
+
+  // Quiz simple logic — map answers to recommended packages
+  quizForm && quizForm.addEventListener('submit', function(evt){
+    evt.preventDefault();
+    const form = new FormData(quizForm);
+    const role = form.get('role');
+    const phase = form.get('phase');
+    const helps = form.getAll('help');
+    const email = form.get('email');
+
+    // Simple recommendation rules (customize server-side as needed)
+    const recommendations = new Set();
+    if(helps.includes('all') || helps.length === 0){
+      recommendations.add('Legal Prompts');
+      recommendations.add('Accounting Prompts');
+      recommendations.add('Due Diligence');
+    } else {
+      helps.forEach(h => {
+        if(h === 'legal') recommendations.add('Legal Prompts');
+        if(h === 'accounting') recommendations.add('Accounting Prompts');
+        if(h === 'valuation') recommendations.add('Valuation Prompts');
+        if(h === 'financing') recommendations.add('Non-Bank Lenders');
+        if(h === 'duediligence') recommendations.add('Due Diligence');
+      });
+    }
+
+    // Phase adjustments
+    if(phase === 'offer' || phase === 'pre-closing') recommendations.add('Legal Prompts');
+    if(phase === 'duediligence') recommendations.add('Due Diligence');
+
+    // Fallback
+    if(recommendations.size === 0){
+      recommendations.add('Legal Prompts');
+      recommendations.add('Accounting Prompts');
+    }
+
+    const recArray = Array.from(recommendations);
+    quizResult.innerHTML = '<p><strong>Recommended packages:</strong></p><ul>' + recArray.map(r => `<li>${r} — <a href="/${r.toLowerCase().split(' ')[0]}-prompts">Get Package</a></li>`).join('') + '</ul><p>We also emailed these to <strong>' + (email||'your email') + '</strong>.</p>';
+
+    // Push a sample analytics event to dataLayer for GTM / tracking
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: 'assessment_completed',
+      assessment_role: role,
+      assessment_phase: phase,
+      recommended: recArray.join(';'),
+      user_email: email || ''
+    });
+
+    // Example: send email or store lead (replace with real endpoint)
+    // fetch('/api/lead', {method:'POST', body: JSON.stringify({email, rec: recArray})});
+
+    // Show a success microcopy
+    setTimeout(()=>{ quizResult.insertAdjacentHTML('beforeend','<p class="muted">Check your inbox for next steps.</p>') }, 400);
+  });
+
+
+  // Horizontal scroller controls
+  const servicesTrack = qs('#servicesTrack');
+  const scrollLeft = qs('#scrollLeft');
+  const scrollRight = qs('#scrollRight');
+
+  function scrollByWidth(dir){
+    if(!servicesTrack) return;
+    const card = servicesTrack.querySelector('.service-card');
+    if(!card) return;
+    const gap = 12;
+    const scrollAmount = card.getBoundingClientRect().width + gap;
+    servicesTrack.scrollBy({left: dir === 'left' ? -scrollAmount : scrollAmount, behavior:'smooth'});
+  }
+  scrollLeft && scrollLeft.addEventListener('click', ()=>scrollByWidth('left'));
+  scrollRight && scrollRight.addEventListener('click', ()=>scrollByWidth('right'));
+
+  // CTA tracking
+  const ctas = qsa('.btn-primary');
+  ctas.forEach(el=>{
+    el.addEventListener('click', (e)=>{
+      const id = el.id || el.textContent.trim();
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: 'cta_click', cta: id });
+    });
+  });
+
+  // Basic lead form placeholder handling
+  const leadForm = qs('#leadForm');
+  if(leadForm){
+    leadForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      // replace with real integration
+      window.dataLayer.push({ event: 'lead_submitted', lead: 'placeholder' });
+      alert('Thank you! We will respond within 24 hours.');
+    });
+  }
+
+  // Accessibility enhancement: allow left/right arrow keys to move carousel
+  if(servicesTrack){
+    servicesTrack.addEventListener('keydown', function(e){
+      if(e.key === 'ArrowLeft') { scrollByWidth('left'); }
+      if(e.key === 'ArrowRight') { scrollByWidth('right'); }
+    });
+  }
+
+  // Close modal on Escape
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape' && quizModal && quizModal.getAttribute('aria-hidden') === 'false'){
+      closeModal();
+    }
+  });
+
+  // Simple lazy-loading hint for images (if you replace placeholders)
+  document.addEventListener('DOMContentLoaded', function(){
+    const imgs = qsa('img[data-src]');
+    imgs.forEach(img=>{
+      img.setAttribute('src', img.getAttribute('data-src'));
+    });
+  });
+
+})();
+
+
+  </script>
+</body>
+</html>
